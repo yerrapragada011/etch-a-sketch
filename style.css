@@ -1,0 +1,32 @@
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  border: 3px solid black;
+  height: 500px;
+  width: 960px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.column {
+  border: 1px solid lightgray;
+  flex: 1;
+}
